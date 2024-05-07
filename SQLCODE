@@ -1,0 +1,10 @@
+CREATE TABLE [dbo].[Vehicle](
+    [VID] [int] IDENTITY(1,1) NOT NULL,
+    [Type] [varchar](50) NOT NULL,
+    [Brand] [varchar](50) NOT NULL,
+    [Model] [varchar](10) NOT NULL,
+    [Year] [int] NOT NULL,
+    [Price] [money] NOT NULL,
+    [Color] [varchar](50) NOT NULL,
+    [Mileage] [float] NOT NULL,
+    [ImagePath] [nvarchar](max) NULL
